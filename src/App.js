@@ -3,11 +3,7 @@ import Home from "./pages/home/Home";
 import routes from "./routes";
 import { RouterProvider } from "react-router-dom";
 const App = () => {
-  return (
-    <RouterProvider router={routes}>
-      <Home />
-    </RouterProvider>
-  );
+  return <RouterProvider router={routes}></RouterProvider>;
 };
 
 export default App;

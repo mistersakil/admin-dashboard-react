@@ -1,0 +1,35 @@
+.sidebar {
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  overflow: hidden;
+  .logo {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.1rem solid #ddd;
+    .img {
+      width: 60%;
+      height: 70%;
+      object-fit: contain;
+    }
+  }
+  .menubar {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    .block {
+      text-transform: uppercase;
+      color: #aaa;
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin: 1rem 0;
+      display: block;
+    }
+    .menuLink {
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+  }
+}
