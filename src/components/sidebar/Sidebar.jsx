@@ -12,9 +12,9 @@ import {
   MoneyOffCsredOutlinedIcon,
   ConstructionOutlinedIcon,
   LogoutOutlinedIcon,
-  PieChartOutlineOutlinedIcon,
-  BarChartOutlinedIcon,
-  DonutSmallOutlinedIcon,
+  WbSunnyOutlinedIcon,
+  NightsStayOutlinedIcon,
+  PublicOutlinedIcon,
 } from "../../icons";
 
 const Sidebar = () => {
@@ -73,10 +73,34 @@ const Sidebar = () => {
           <LogoutOutlinedIcon className="icon" />
           logout
         </a>
+
+        <span className="block">system</span>
+        <a href="#" className="menuLink">
+          <PeopleOutlineOutlinedIcon className="icon" />
+          users
+        </a>
+        <a href="#" className="menuLink">
+          <ConstructionOutlinedIcon className="icon" />
+          settings
+        </a>
+        <a href="#" className="menuLink">
+          <LogoutOutlinedIcon className="icon" />
+          logout
+        </a>
       </nav>
-      <section className="theme">
-        <span className="light">light</span>
-        <span className="dark">dark</span>
+      <section className="footerIcons">
+        <span className="type light" title="Light">
+          <WbSunnyOutlinedIcon className="icon" />
+        </span>
+        <span className="type dark" title="Dark">
+          <NightsStayOutlinedIcon className="icon" />
+        </span>
+        <span className="type" title="Website">
+          <PublicOutlinedIcon className="icon" />
+        </span>
+        <span className="type" title="Logout">
+          <LogoutOutlinedIcon className="icon" />
+        </span>
       </section>
     </aside>
   );

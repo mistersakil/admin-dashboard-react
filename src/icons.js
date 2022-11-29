@@ -12,6 +12,9 @@ import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
 import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import DonutSmallOutlinedIcon from "@mui/icons-material/DonutSmallOutlined";
+import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
+import NightsStayOutlinedIcon from "@mui/icons-material/NightsStayOutlined";
+import PublicOutlinedIcon from "@mui/icons-material/PublicOutlined";
 export {
   GridViewOutlinedIcon,
   PeopleOutlineOutlinedIcon,
@@ -27,4 +30,7 @@ export {
   PieChartOutlineOutlinedIcon,
   BarChartOutlinedIcon,
   DonutSmallOutlinedIcon,
+  WbSunnyOutlinedIcon,
+  NightsStayOutlinedIcon,
+  PublicOutlinedIcon,
 };
