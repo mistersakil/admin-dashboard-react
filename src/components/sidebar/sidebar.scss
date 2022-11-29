@@ -4,13 +4,13 @@
   overflow: hidden;
   .logo {
     width: 100%;
-    height: 8rem;
+    height: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 0.1rem solid var(--borderSecondary);
     .img {
-      width: 60%;
+      width: 80%;
       height: 70%;
       object-fit: contain;
     }
@@ -31,8 +31,20 @@
       text-decoration: none;
       text-transform: capitalize;
       color: var(--colorPrimary);
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1.4rem;
+      font-size: 1.6rem;
+      padding: 0.5rem;
+      transition: all 0.3s linear;
+      margin-left: 0.5rem;
+
       .icon {
         color: var(--colorBrand);
+      }
+      &:hover {
+        background-color: var(--bgPrimary);
       }
     }
   }

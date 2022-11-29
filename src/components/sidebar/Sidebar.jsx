@@ -1,6 +1,21 @@
 import "./sidebar.scss";
-import GridViewOutlinedIcon from "@mui/icons-material/GridViewOutlined";
-import PeopleOutlineOutlinedIcon from "@mui/icons-material/PeopleOutlineOutlined";
+
+import {
+  GridViewOutlinedIcon,
+  PeopleOutlineOutlinedIcon,
+  CategoryOutlinedIcon,
+  ProductionQuantityLimitsOutlinedIcon,
+  AndroidOutlinedIcon,
+  ApartmentOutlinedIcon,
+  MonetizationOnOutlinedIcon,
+  RedeemOutlinedIcon,
+  MoneyOffCsredOutlinedIcon,
+  ConstructionOutlinedIcon,
+  LogoutOutlinedIcon,
+  PieChartOutlineOutlinedIcon,
+  BarChartOutlinedIcon,
+  DonutSmallOutlinedIcon,
+} from "../../icons";
 
 const Sidebar = () => {
   return (
@@ -9,58 +24,54 @@ const Sidebar = () => {
         <img src="/logo.png" alt="Logo" className="img" />
       </section>
       <nav className="menubar">
-        <span className="block">block</span>
+        <span className="block">default</span>
         <a href="#" className="menuLink">
           <GridViewOutlinedIcon className="icon" />
           dashboard
         </a>
+        <span className="block">operations</span>
         <a href="#" className="menuLink">
-          <PeopleOutlineOutlinedIcon className="icon" />
-          dashboard
-        </a>
-        <span className="block">block</span>
-        <a href="#" className="menuLink">
-          <GridViewOutlinedIcon className="icon" />
-          dashboard
+          <CategoryOutlinedIcon className="icon" />
+          category
         </a>
         <a href="#" className="menuLink">
-          <GridViewOutlinedIcon className="icon" />
-          dashboard
+          <ProductionQuantityLimitsOutlinedIcon className="icon" />
+          products
         </a>
         <a href="#" className="menuLink">
-          <GridViewOutlinedIcon className="icon" />
-          dashboard
+          <AndroidOutlinedIcon className="icon" />
+          brands
         </a>
         <a href="#" className="menuLink">
-          <GridViewOutlinedIcon className="icon" />
-          dashboard
+          <ApartmentOutlinedIcon className="icon" />
+          units
         </a>
+        <span className="block">reports</span>
+        <a href="#" className="menuLink">
+          <MonetizationOnOutlinedIcon className="icon" />
+          purchase
+        </a>
+        <a href="#" className="menuLink">
+          <RedeemOutlinedIcon className="icon" />
+          orders
+        </a>
+        <a href="#" className="menuLink">
+          <MoneyOffCsredOutlinedIcon className="icon" />
+          wages
+        </a>
+
         <span className="block">system</span>
         <a href="#" className="menuLink">
           <PeopleOutlineOutlinedIcon className="icon" />
           users
         </a>
         <a href="#" className="menuLink">
-          <GridViewOutlinedIcon className="icon" />
-          dashboard
-        </a>
-        <span className="block">system</span>
-        <a href="#" className="menuLink">
-          <PeopleOutlineOutlinedIcon className="icon" />
-          users
+          <ConstructionOutlinedIcon className="icon" />
+          settings
         </a>
         <a href="#" className="menuLink">
-          <GridViewOutlinedIcon className="icon" />
-          dashboard
-        </a>
-        <span className="block">system</span>
-        <a href="#" className="menuLink">
-          <PeopleOutlineOutlinedIcon className="icon" />
-          users
-        </a>
-        <a href="#" className="menuLink">
-          <GridViewOutlinedIcon className="icon" />
-          dashboard
+          <LogoutOutlinedIcon className="icon" />
+          logout
         </a>
       </nav>
       <section className="theme">
