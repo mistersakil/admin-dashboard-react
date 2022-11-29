@@ -1,6 +1,7 @@
 import "./sidebar.scss";
-// import GridViewOutlinedIcon from "@mui/icons-material/GridViewOutlined";
-import ThreeDRotation from "@mui/icons-material/ThreeDRotation";
+import GridViewOutlinedIcon from "@mui/icons-material/GridViewOutlined";
+import PeopleOutlineOutlinedIcon from "@mui/icons-material/PeopleOutlineOutlined";
+
 const Sidebar = () => {
   return (
     <aside className="sidebar">
@@ -10,27 +11,55 @@ const Sidebar = () => {
       <nav className="menubar">
         <span className="block">block</span>
         <a href="#" className="menuLink">
-          <ThreeDRotation />
+          <GridViewOutlinedIcon className="icon" />
           dashboard
         </a>
         <a href="#" className="menuLink">
-          dashboard
-        </a>
-        <span className="block">block</span>
-        <a href="#" className="menuLink">
-          dashboard
-        </a>
-        <a href="#" className="menuLink">
-          dashboard
-        </a>
-        <a href="#" className="menuLink">
+          <PeopleOutlineOutlinedIcon className="icon" />
           dashboard
         </a>
         <span className="block">block</span>
         <a href="#" className="menuLink">
+          <GridViewOutlinedIcon className="icon" />
           dashboard
         </a>
         <a href="#" className="menuLink">
+          <GridViewOutlinedIcon className="icon" />
+          dashboard
+        </a>
+        <a href="#" className="menuLink">
+          <GridViewOutlinedIcon className="icon" />
+          dashboard
+        </a>
+        <a href="#" className="menuLink">
+          <GridViewOutlinedIcon className="icon" />
+          dashboard
+        </a>
+        <span className="block">system</span>
+        <a href="#" className="menuLink">
+          <PeopleOutlineOutlinedIcon className="icon" />
+          users
+        </a>
+        <a href="#" className="menuLink">
+          <GridViewOutlinedIcon className="icon" />
+          dashboard
+        </a>
+        <span className="block">system</span>
+        <a href="#" className="menuLink">
+          <PeopleOutlineOutlinedIcon className="icon" />
+          users
+        </a>
+        <a href="#" className="menuLink">
+          <GridViewOutlinedIcon className="icon" />
+          dashboard
+        </a>
+        <span className="block">system</span>
+        <a href="#" className="menuLink">
+          <PeopleOutlineOutlinedIcon className="icon" />
+          users
+        </a>
+        <a href="#" className="menuLink">
+          <GridViewOutlinedIcon className="icon" />
           dashboard
         </a>
       </nav>

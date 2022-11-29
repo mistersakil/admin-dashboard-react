@@ -1,6 +1,6 @@
 .sidebar {
   background-color: #fff;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid var(--borderSecondary);
   overflow: hidden;
   .logo {
     width: 100%;
@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 0.1rem solid #ddd;
+    border-bottom: 0.1rem solid var(--borderSecondary);
     .img {
       width: 60%;
       height: 70%;
@@ -21,7 +21,7 @@
     flex-direction: column;
     .block {
       text-transform: uppercase;
-      color: #aaa;
+      color: var(--colorSecondary);
       font-size: 1.4rem;
       font-weight: 500;
       margin: 1rem 0;
@@ -30,6 +30,10 @@
     .menuLink {
       text-decoration: none;
       text-transform: capitalize;
+      color: var(--colorPrimary);
+      .icon {
+        color: var(--colorBrand);
+      }
     }
   }
 }
