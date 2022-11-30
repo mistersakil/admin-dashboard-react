@@ -6,6 +6,11 @@
   height: 100vh;
   /* logo */
   .logo {
+    background-image: linear-gradient(
+      to bottom,
+      var(--bgPrimary),
+      var(--bgWhite)
+    );
     width: 100%;
     height: 6rem;
     border-bottom: 0.1rem solid var(--borderSecondary);
@@ -31,13 +36,15 @@
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 10rem);
+    height: calc(
+      100vh - var(--logoContainerHeight) - var(--footerIconContainerHeight)
+    );
     overflow-y: scroll;
     overflow-x: hidden;
 
     &::-webkit-scrollbar {
       width: 0.2rem;
-      background: var(--bgPrimary);
+      background: var(--scrollbarPrimary);
     }
 
     &::-webkit-scrollbar-track {
@@ -46,7 +53,7 @@
 
     &::-webkit-scrollbar-thumb {
       border-radius: 15px;
-      background: var(--colorBrand);
+      background: var(--scrollbarSecondary);
     }
     .block {
       text-transform: uppercase;
@@ -80,8 +87,12 @@
 
   /* footerIcons */
   .footerIcons {
-    background-color: var(--bgPrimary);
-    height: 4rem;
+    background-image: linear-gradient(
+      to bottom,
+      var(--bgWhite),
+      var(--bgSecondary)
+    );
+    height: var(--footerIconContainerHeight);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
