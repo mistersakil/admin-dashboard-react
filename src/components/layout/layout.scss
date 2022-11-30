@@ -1,4 +1,12 @@
+/* layout */
 .layout {
   display: grid;
   grid-template-columns: 1fr 5fr;
+  .container {
+    .contentArea {
+      padding: 2rem;
+    }
+  }
 }
+
+/* end: layout */

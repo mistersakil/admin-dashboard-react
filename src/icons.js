@@ -22,6 +22,7 @@ import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutline
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
 export {
   GridViewOutlinedIcon,
   PeopleOutlineOutlinedIcon,
@@ -47,4 +48,5 @@ export {
   SettingsOutlinedIcon,
   DarkModeOutlinedIcon,
   PersonOutlineOutlinedIcon,
+  KeyboardArrowUpOutlinedIcon,
 };

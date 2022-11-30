@@ -1,0 +1,40 @@
+/* widget */
+.widget {
+  background-color: var(--bgWhite);
+  box-shadow: 0px 0px 5px 2px var(--bgPrimary);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  /* left */
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .title {
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--colorSecondary);
+    }
+    .counter {
+      font-size: 3.4rem;
+      font-weight: 500;
+      color: var(--colorSecondary);
+    }
+    .link {
+      background-color: var(--bgPrimary);
+      color: var(--colorBlack);
+      padding: 0 1rem;
+      font-size: 1.2rem;
+      line-height: 2rem;
+      text-transform: capitalize;
+      text-decoration: none;
+      border-radius: 1rem;
+      cursor: pointer;
+    }
+  }
+  /* end: left */
+}
+
+/* end: widget */

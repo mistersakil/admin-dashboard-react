@@ -2,14 +2,15 @@ import "./layout.scss";
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
-    <div className="layout">
+    <section className="layout">
       <Sidebar />
       <main className="container">
         <Navbar />
+        <article className="contentArea">{children}</article>
       </main>
-    </div>
+    </section>
   );
 };
 
