@@ -6,6 +6,8 @@
   display: flex;
   justify-content: space-between;
   border-radius: 0.5rem;
+  transition: all 0.3s ease-in;
+
   /* left */
   .left {
     display: flex;
@@ -15,7 +17,7 @@
       text-transform: uppercase;
       font-size: 1.6rem;
       font-weight: 600;
-      color: var(--colorSecondary);
+      color: var(--colorBrand);
     }
     .counter {
       font-size: 3.4rem;
@@ -32,9 +34,48 @@
       text-decoration: none;
       border-radius: 1rem;
       cursor: pointer;
+      width: fit-content;
     }
   }
   /* end: left */
+  /* right */
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    .counter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.1rem;
+
+      &.green {
+        color: var(--colorGreen);
+      }
+
+      &.red {
+        color: var(--colorRed);
+      }
+      font-weight: 700;
+      .icon {
+        font-size: 3rem;
+      }
+    }
+    .widgetIcon {
+      font-size: 5rem;
+      padding: 0;
+      color: var(--colorSecondary);
+    }
+  }
+  /* end: right */
+  &:hover {
+    background-color: var(--bgPrimary);
+    transform: scale(1.05);
+    .link {
+      background-color: var(--bgWhite);
+    }
+  }
 }
 
 /* end: widget */

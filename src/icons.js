@@ -23,7 +23,17 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
+import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";
+import ArrowDropUpOutlinedIcon from "@mui/icons-material/ArrowDropUpOutlined";
+import AttachMoneyOutlinedIcon from "@mui/icons-material/AttachMoneyOutlined";
+import StoreMallDirectoryOutlinedIcon from "@mui/icons-material/StoreMallDirectoryOutlined";
+import HomeWorkOutlinedIcon from "@mui/icons-material/HomeWorkOutlined";
 export {
+  HomeWorkOutlinedIcon,
+  StoreMallDirectoryOutlinedIcon,
+  AttachMoneyOutlinedIcon,
+  ArrowDropUpOutlinedIcon,
+  ArrowDropDownOutlinedIcon,
   GridViewOutlinedIcon,
   PeopleOutlineOutlinedIcon,
   CategoryOutlinedIcon,
