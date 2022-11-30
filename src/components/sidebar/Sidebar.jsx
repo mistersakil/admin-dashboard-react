@@ -13,8 +13,7 @@ import {
   ConstructionOutlinedIcon,
   LogoutOutlinedIcon,
   WbSunnyOutlinedIcon,
-  NightsStayOutlinedIcon,
-  PublicOutlinedIcon,
+  DarkModeOutlinedIcon,
 } from "../../icons";
 
 const Sidebar = () => {
@@ -88,7 +87,7 @@ const Sidebar = () => {
           <WbSunnyOutlinedIcon className="icon" />
         </span>
         <span className="type dark" title="Dark">
-          <NightsStayOutlinedIcon className="icon" />
+          <DarkModeOutlinedIcon className="icon" />
         </span>
 
         <span className="type" title="Logout">
