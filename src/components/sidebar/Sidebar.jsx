@@ -21,7 +21,8 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
       <section className="logo">
-        <img src="/logo.png" alt="Logo" className="img" />
+        <img src="/favicon.ico" alt="Logo" className="img" />
+        <span className="text">Admin</span>
       </section>
       <nav className="menubar">
         <span className="block">default</span>
@@ -58,20 +59,6 @@ const Sidebar = () => {
         <a href="#" className="menuLink">
           <MoneyOffCsredOutlinedIcon className="icon" />
           wages
-        </a>
-
-        <span className="block">system</span>
-        <a href="#" className="menuLink">
-          <PeopleOutlineOutlinedIcon className="icon" />
-          users
-        </a>
-        <a href="#" className="menuLink">
-          <ConstructionOutlinedIcon className="icon" />
-          settings
-        </a>
-        <a href="#" className="menuLink">
-          <LogoutOutlinedIcon className="icon" />
-          logout
         </a>
 
         <span className="block">system</span>
