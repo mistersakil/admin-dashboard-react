@@ -74,6 +74,14 @@ const Sidebar = () => {
           <LogoutOutlinedIcon className="icon" />
           logout
         </a>
+        <a href="#" className="menuLink">
+          <ConstructionOutlinedIcon className="icon" />
+          settings
+        </a>
+        <a href="#" className="menuLink">
+          <LogoutOutlinedIcon className="icon" />
+          logout
+        </a>
       </nav>
       <section className="footerIcons">
         <span className="type light" title="Light">
