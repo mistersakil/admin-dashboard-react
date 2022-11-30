@@ -9,7 +9,7 @@ import {
   ApartmentOutlinedIcon,
   MonetizationOnOutlinedIcon,
   RedeemOutlinedIcon,
-  MoneyOffCsredOutlinedIcon,
+  MoneyOffOutlinedIcon,
   ConstructionOutlinedIcon,
   LogoutOutlinedIcon,
   WbSunnyOutlinedIcon,
@@ -26,7 +26,7 @@ const Sidebar = () => {
       </section>
       <nav className="menubar">
         <span className="block">default</span>
-        <a href="#" className="menuLink">
+        <a href="./" className="menuLink">
           <GridViewOutlinedIcon className="icon" />
           dashboard
         </a>
@@ -57,7 +57,7 @@ const Sidebar = () => {
           orders
         </a>
         <a href="#" className="menuLink">
-          <MoneyOffCsredOutlinedIcon className="icon" />
+          <MoneyOffOutlinedIcon className="icon" />
           wages
         </a>
 

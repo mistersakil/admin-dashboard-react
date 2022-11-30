@@ -1,6 +1,6 @@
 /* sidebar */
 .sidebar {
-  background-color: #fff;
+  background-color: var(--bgWhite);
   border-right: 1px solid var(--borderSecondary);
   overflow: hidden;
   height: 100vh;
@@ -15,7 +15,7 @@
     justify-content: center;
     gap: 0.5rem;
     .img {
-      height: 80%;
+      height: 60%;
       object-fit: contain;
     }
     .text {

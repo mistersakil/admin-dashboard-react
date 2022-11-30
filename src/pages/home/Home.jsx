@@ -4,10 +4,13 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import "./home.scss";
 const Home = () => {
   return (
-    <div className="home">
+    <section className="home">
       <Sidebar />
-      <h1 className="title">home page</h1>
-    </div>
+      <main className="container">
+        <Navbar />
+        <h1 className="title">home page</h1>
+      </main>
+    </section>
   );
 };
 
