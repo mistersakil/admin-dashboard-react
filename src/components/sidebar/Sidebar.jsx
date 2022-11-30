@@ -90,9 +90,7 @@ const Sidebar = () => {
         <span className="type dark" title="Dark">
           <NightsStayOutlinedIcon className="icon" />
         </span>
-        <span className="type" title="Website">
-          <PublicOutlinedIcon className="icon" />
-        </span>
+
         <span className="type" title="Logout">
           <LogoutOutlinedIcon className="icon" />
         </span>

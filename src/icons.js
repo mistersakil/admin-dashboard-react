@@ -21,6 +21,7 @@ import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNone
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
+import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 export {
   GridViewOutlinedIcon,
   PeopleOutlineOutlinedIcon,
@@ -45,4 +46,5 @@ export {
   ChatBubbleOutlineOutlinedIcon,
   SettingsOutlinedIcon,
   DarkModeOutlinedIcon,
+  PersonOutlineOutlinedIcon,
 };
