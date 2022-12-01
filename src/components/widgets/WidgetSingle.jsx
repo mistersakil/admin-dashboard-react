@@ -12,7 +12,7 @@ const WidgetSingle = ({
   percentValue,
 }) => {
   return (
-    <article className="widget">
+    <article className="widget boxShadow">
       <aside className="left">
         <h2 className="title">{title}</h2>
         <h3 className="counter">{counter}</h3>

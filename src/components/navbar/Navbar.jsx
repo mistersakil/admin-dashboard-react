@@ -11,7 +11,7 @@ import {
 const Navbar = () => {
   return (
     <section className="navbar">
-      <aside className="searchBox">
+      <aside className="searchBox boxShadow">
         <input className="searchInput" type="text" placeholder="Search..." />
         <SearchOutlinedIcon className="searchIcon" />
       </aside>
