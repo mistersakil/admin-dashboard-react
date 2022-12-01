@@ -28,7 +28,9 @@ import ArrowDropUpOutlinedIcon from "@mui/icons-material/ArrowDropUpOutlined";
 import AttachMoneyOutlinedIcon from "@mui/icons-material/AttachMoneyOutlined";
 import StoreMallDirectoryOutlinedIcon from "@mui/icons-material/StoreMallDirectoryOutlined";
 import HomeWorkOutlinedIcon from "@mui/icons-material/HomeWorkOutlined";
+import MoreVertIcon from "@mui/icons-material/MoreVert";
 export {
+  MoreVertIcon,
   HomeWorkOutlinedIcon,
   StoreMallDirectoryOutlinedIcon,
   AttachMoneyOutlinedIcon,

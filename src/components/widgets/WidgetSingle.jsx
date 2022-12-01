@@ -1,8 +1,5 @@
 import "./widget_single.scss";
-import {
-  KeyboardArrowUpOutlinedIcon,
-  PeopleOutlineOutlinedIcon,
-} from "../../icons";
+
 const WidgetSingle = ({
   title,
   counter,
