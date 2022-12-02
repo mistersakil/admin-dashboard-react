@@ -4,6 +4,9 @@
   grid-template-columns: 1fr 5fr;
   .container {
     .contentArea {
+      max-height: calc(100vh - var(--navbarContainerHeight));
+      overflow-y: scroll;
+
       padding: 2rem;
     }
   }
