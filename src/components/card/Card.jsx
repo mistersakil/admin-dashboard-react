@@ -2,12 +2,11 @@ import "./card.scss";
 import { MoreVertIcon, ArrowDropUpOutlinedIcon } from "../../icons";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-const Card = () => {
-  const percent = 65;
+const Card = ({ title, percent, amount }) => {
   return (
     <section className="cardColumn boxShadow">
       <aside className="cardHeader">
-        <h2 className="cardTitle">total revenue</h2>
+        <h2 className="cardTitle">{title}</h2>
         <MoreVertIcon className="optionIcon" />
       </aside>
       <aside className="cardContent">
@@ -17,7 +16,7 @@ const Card = () => {
           className="progressBar"
         />
         <h4 className="subTitle">total sales made today</h4>
-        <h5 className="amount">Tk 500K</h5>
+        <h5 className="amount">Tk {amount}</h5>
         <p className="details">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nam
           cum voluptas

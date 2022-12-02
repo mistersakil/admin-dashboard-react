@@ -9,8 +9,10 @@ const Home = () => {
       <main className="home">
         <Widgets />
         <section className="graphsRow">
-          <Card></Card>
-          <div className="graph">graph</div>
+          <Card title="total revenue" percent="65" amount="400K"></Card>
+          <Card title="total sales" percent="55" amount="200K"></Card>
+          <Card title="total growth" percent="75" amount="700K"></Card>
+          {/* <div className="graph">graph</div> */}
         </section>
       </main>
     </Layout>
