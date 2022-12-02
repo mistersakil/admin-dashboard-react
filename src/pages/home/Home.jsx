@@ -5,9 +5,14 @@ import Card from "../../components/card/Card";
 
 const Home = () => {
   return (
-    <Layout className="home">
-      <Widgets />
-      <Card />
+    <Layout>
+      <main className="home">
+        <Widgets />
+        <section className="graphsRow">
+          <Card></Card>
+          <div className="graph">graph</div>
+        </section>
+      </main>
     </Layout>
   );
 };
