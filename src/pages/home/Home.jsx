@@ -57,6 +57,7 @@ const Home = () => {
         <Widgets />
         <section className="cardRow">{cardsList}</section>
         <section className="graphRow">{graphList}</section>
+        <section className="tableRow"></section>
       </main>
     </Layout>
   );
