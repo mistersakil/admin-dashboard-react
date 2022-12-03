@@ -1,5 +1,6 @@
 .cardContent {
-  padding: 2rem 0;
+  // padding: 1rem 0;
+  padding-bottom: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,8 +19,8 @@
   }
   /* .amount */
   .details {
-    font-size: 1.4rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 300;
   }
   /* .details */
 }
