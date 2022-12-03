@@ -1,4 +1,4 @@
-import "./card_header.scss";
+import "./cardHeader.scss";
 import { MoreVertIcon } from "../../icons";
 const CardHeader = ({ title }) => {
   return (
