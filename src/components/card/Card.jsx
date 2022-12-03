@@ -1,6 +1,6 @@
 import "./card.scss";
 import { MoreVertIcon, ArrowDropUpOutlinedIcon } from "../../icons";
-import { CircularProgressbar } from "react-circular-progressbar";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 const Card = ({ title, percent, amount }) => {
   return (
@@ -14,6 +14,10 @@ const Card = ({ title, percent, amount }) => {
           value={percent}
           text={`${percent}%`}
           className="progressBar"
+          strokeWidth="4"
+          styles={buildStyles({
+            strokeLinecap: "round",
+          })}
         />
         <h4 className="subTitle">total sales made today</h4>
         <h5 className="amount">Tk {amount}</h5>
