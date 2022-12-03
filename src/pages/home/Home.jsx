@@ -21,11 +21,12 @@ const Home = () => {
     <Layout>
       <main className="home">
         <Widgets />
+
+        <section className="cardRow">{cardsList}</section>
         <section className="graphRow">
           <Graph />
           <Graph />
         </section>
-        <section className="cardRow">{cardsList}</section>
       </main>
     </Layout>
   );

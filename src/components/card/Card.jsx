@@ -2,13 +2,11 @@ import "./card.scss";
 import { MoreVertIcon, ArrowDropUpOutlinedIcon } from "../../icons";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import CardHeader from "./CardHeader";
 const Card = ({ title, percent, amount }) => {
   return (
     <section className="cardColumn boxShadow">
-      <aside className="cardHeader">
-        <h2 className="cardTitle">{title}</h2>
-        <MoreVertIcon className="optionIcon" />
-      </aside>
+      <CardHeader title={title} />
       <aside className="cardContent">
         <CircularProgressbar
           value={percent}

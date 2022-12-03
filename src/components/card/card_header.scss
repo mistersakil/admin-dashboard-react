@@ -1,0 +1,16 @@
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .cardTitle {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  /* .cardTitle */
+  .optionIcon {
+    font-size: 2rem;
+  }
+  /* .optionIcon */
+}
+/* .cardHeader */
