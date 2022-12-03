@@ -2,8 +2,13 @@ import "./home.scss";
 import Layout from "../../components/layout/Layout";
 import Widgets from "../../components/widgets/Widgets";
 import Card from "../../components/card/Card";
+import Graph from "../../components/graph/Graph";
 
 const Home = () => {
+  /**
+   * List of card items
+   * Generate card elements
+   */
   const cards = [
     { title: "total revenue", percent: "65", amount: "400K" },
     { title: "total sales", percent: "55", amount: "200K" },
@@ -16,7 +21,11 @@ const Home = () => {
     <Layout>
       <main className="home">
         <Widgets />
-        <section className="graphsRow">{cardsList}</section>
+        <section className="graphRow">
+          <Graph />
+          <Graph />
+        </section>
+        <section className="cardRow">{cardsList}</section>
       </main>
     </Layout>
   );
