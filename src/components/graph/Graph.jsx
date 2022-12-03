@@ -10,14 +10,12 @@ import {
 } from "recharts";
 import CardHeader from "../card/CardHeader";
 
-const Graph = ({ title, data }) => {
+const Graph = ({ title, data, id }) => {
   return (
     <section className="cardColumn boxShadow">
       <CardHeader title={title} />
       <ResponsiveContainer width="100%" height="100%">
         <AreaChart
-          width={500}
-          height={400}
           data={data}
           margin={{
             top: 10,
@@ -26,7 +24,18 @@ const Graph = ({ title, data }) => {
             bottom: 0,
           }}
         >
-          <CartesianGrid strokeDasharray="3 3" />
+          <defs>
+            <linearGradient
+              id={`revenueGraph_${id}`}
+              x1="0"
+              y1="0"
+              x2="0"
+              y2="1"
+            >
+              <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8} />
+              <stop offset="95%" stopColor="#8884d8" stopOpacity={0} />
+            </linearGradient>
+          </defs>
           <XAxis dataKey="month" />
           <YAxis />
           <Tooltip />
@@ -34,7 +43,8 @@ const Graph = ({ title, data }) => {
             type="monotone"
             dataKey="amount"
             stroke="#8884d8"
-            fill="#8884d8"
+            fillOpacity={1}
+            fill={`url(#revenueGraph_${id})`}
           />
         </AreaChart>
       </ResponsiveContainer>
